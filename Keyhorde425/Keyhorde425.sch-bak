@@ -62,23 +62,23 @@ Wire Wire Line
 $Comp
 L Device:R_Small R4
 U 1 1 636CD56A
-P 4250 6000
-F 0 "R4" V 4054 6000 50  0000 C CNN
-F 1 "10k" V 4145 6000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 4250 6000 50  0001 C CNN
-F 3 "~" H 4250 6000 50  0001 C CNN
-	1    4250 6000
+P 3950 6000
+F 0 "R4" V 3754 6000 50  0000 C CNN
+F 1 "10k" V 3845 6000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3950 6000 50  0001 C CNN
+F 3 "~" H 3950 6000 50  0001 C CNN
+	1    3950 6000
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0103
 U 1 1 636CF6B0
-P 4600 6000
-F 0 "#PWR0103" H 4600 5750 50  0001 C CNN
-F 1 "GND" H 4605 5827 50  0000 C CNN
-F 2 "" H 4600 6000 50  0001 C CNN
-F 3 "" H 4600 6000 50  0001 C CNN
-	1    4600 6000
+P 4300 6000
+F 0 "#PWR0103" H 4300 5750 50  0001 C CNN
+F 1 "GND" H 4305 5827 50  0000 C CNN
+F 2 "" H 4300 6000 50  0001 C CNN
+F 3 "" H 4300 6000 50  0001 C CNN
+	1    4300 6000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -429,7 +429,9 @@ F 3 "" H 4625 2075 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4350 6000 4600 6000
+	3850 6000 3600 6000
+Wire Wire Line
+	4050 6000 4300 6000
 $Comp
 L Device:D_Small Diode1
 U 1 1 6376460A
@@ -1949,70 +1951,4 @@ Wire Wire Line
 Connection ~ 2200 1950
 Wire Wire Line
 	2200 1950 2200 2000
-Text GLabel 3850 5100 2    50   Input ~ 0
-ROW0
-Text GLabel 3850 5200 2    50   Input ~ 0
-ROW1
-Text GLabel 3850 5300 2    50   Input ~ 0
-ROW2
-Text GLabel 3850 5400 2    50   Input ~ 0
-ROW3
-Wire Wire Line
-	3600 5100 3850 5100
-Wire Wire Line
-	3600 5200 3850 5200
-Wire Wire Line
-	3600 5300 3850 5300
-Wire Wire Line
-	3600 5400 3850 5400
-Text GLabel 3850 6300 2    50   Input ~ 0
-COL0
-Text GLabel 3850 6400 2    50   Input ~ 0
-COL1
-Text GLabel 3850 6800 2    50   Input ~ 0
-COL2
-Text GLabel 3850 4900 2    50   Input ~ 0
-COL3
-Text GLabel 3850 4800 2    50   Input ~ 0
-COL4
-Wire Wire Line
-	3600 4800 3850 4800
-Wire Wire Line
-	3600 4900 3850 4900
-Wire Wire Line
-	3600 6300 3850 6300
-Wire Wire Line
-	3600 6400 3850 6400
-Wire Wire Line
-	3600 6800 3850 6800
-Text GLabel 3850 4500 2    50   Input ~ 0
-COL5
-Wire Wire Line
-	3600 4500 3850 4500
-Text GLabel 3850 5700 2    50   Input ~ 0
-COL6
-Text GLabel 3850 3900 2    50   Input ~ 0
-COL7
-Text GLabel 3850 4600 2    50   Input ~ 0
-COL8
-Text GLabel 3850 4400 2    50   Input ~ 0
-COL9
-Text GLabel 3850 4300 2    50   Input ~ 0
-COL10
-Text GLabel 3850 5800 2    50   Input ~ 0
-COL11
-Wire Wire Line
-	3600 6000 4150 6000
-Wire Wire Line
-	3600 5700 3850 5700
-Wire Wire Line
-	3600 5800 3850 5800
-Wire Wire Line
-	3600 4300 3850 4300
-Wire Wire Line
-	3600 4400 3850 4400
-Wire Wire Line
-	3600 4600 3850 4600
-Wire Wire Line
-	3600 3900 3850 3900
 $EndSCHEMATC
