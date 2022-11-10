@@ -1382,32 +1382,8 @@ Wire Wire Line
 $Comp
 L MX_Alps_Hybrid:MX-NoLED CTR-MOD1
 U 1 1 6388747C
-P 7250 4350
-F 0 "CTR-MOD1" H 7283 4573 60  0000 C CNN
-F 1 "MX-NoLED" H 7283 4499 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U" H 6625 4325 60  0001 C CNN
-F 3 "" H 6625 4325 60  0001 C CNN
-	1    7250 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small Diode20
-U 1 1 63887482
-P 7100 4600
-F 0 "Diode20" V 7146 4532 50  0000 R CNN
-F 1 "SOD-123" V 7055 4532 50  0000 R CNN
-F 2 "Diode_THT:D_5KP_P7.62mm_Vertical_AnodeUp" V 7100 4600 50  0001 C CNN
-F 3 "~" V 7100 4600 50  0001 C CNN
-	1    7100 4600
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7100 4500 7200 4500
-$Comp
-L MX_Alps_Hybrid:MX-NoLED SPC-2
-U 1 1 63887489
 P 7750 4350
-F 0 "SPC-2" H 7783 4573 60  0000 C CNN
+F 0 "CTR-MOD1" H 7783 4573 60  0000 C CNN
 F 1 "MX-NoLED" H 7783 4499 20  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U" H 7125 4325 60  0001 C CNN
 F 3 "" H 7125 4325 60  0001 C CNN
@@ -1415,10 +1391,10 @@ F 3 "" H 7125 4325 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small Diode24
-U 1 1 6388748F
+L Device:D_Small Diode20
+U 1 1 63887482
 P 7600 4600
-F 0 "Diode24" V 7646 4532 50  0000 R CNN
+F 0 "Diode20" V 7646 4532 50  0000 R CNN
 F 1 "SOD-123" V 7555 4532 50  0000 R CNN
 F 2 "Diode_THT:D_5KP_P7.62mm_Vertical_AnodeUp" V 7600 4600 50  0001 C CNN
 F 3 "~" V 7600 4600 50  0001 C CNN
@@ -1428,34 +1404,10 @@ $EndComp
 Wire Wire Line
 	7600 4500 7700 4500
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MOD-2
-U 1 1 63887496
-P 8250 4350
-F 0 "MOD-2" H 8283 4573 60  0000 C CNN
-F 1 "MX-NoLED" H 8283 4499 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U" H 7625 4325 60  0001 C CNN
-F 3 "" H 7625 4325 60  0001 C CNN
-	1    8250 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small Diode28
-U 1 1 6388749C
-P 8100 4600
-F 0 "Diode28" V 8146 4532 50  0000 R CNN
-F 1 "SOD-123" V 8055 4532 50  0000 R CNN
-F 2 "Diode_THT:D_5KP_P7.62mm_Vertical_AnodeUp" V 8100 4600 50  0001 C CNN
-F 3 "~" V 8100 4600 50  0001 C CNN
-	1    8100 4600
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8100 4500 8200 4500
-$Comp
-L MX_Alps_Hybrid:MX-NoLED R-MOD-1
-U 1 1 638874A3
+L MX_Alps_Hybrid:MX-NoLED SPC-2
+U 1 1 63887489
 P 8750 4350
-F 0 "R-MOD-1" H 8783 4573 60  0000 C CNN
+F 0 "SPC-2" H 8783 4573 60  0000 C CNN
 F 1 "MX-NoLED" H 8783 4499 20  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U" H 8125 4325 60  0001 C CNN
 F 3 "" H 8125 4325 60  0001 C CNN
@@ -1463,10 +1415,10 @@ F 3 "" H 8125 4325 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small Diode32
-U 1 1 638874A9
+L Device:D_Small Diode24
+U 1 1 6388748F
 P 8600 4600
-F 0 "Diode32" V 8646 4532 50  0000 R CNN
+F 0 "Diode24" V 8646 4532 50  0000 R CNN
 F 1 "SOD-123" V 8555 4532 50  0000 R CNN
 F 2 "Diode_THT:D_5KP_P7.62mm_Vertical_AnodeUp" V 8600 4600 50  0001 C CNN
 F 3 "~" V 8600 4600 50  0001 C CNN
@@ -1476,34 +1428,10 @@ $EndComp
 Wire Wire Line
 	8600 4500 8700 4500
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R-MOD-2
-U 1 1 638874B0
-P 9250 4350
-F 0 "R-MOD-2" H 9283 4573 60  0000 C CNN
-F 1 "MX-NoLED" H 9283 4499 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U" H 8625 4325 60  0001 C CNN
-F 3 "" H 8625 4325 60  0001 C CNN
-	1    9250 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small Diode36
-U 1 1 638874B6
-P 9100 4600
-F 0 "Diode36" V 9146 4532 50  0000 R CNN
-F 1 "SOD-123" V 9055 4532 50  0000 R CNN
-F 2 "Diode_THT:D_5KP_P7.62mm_Vertical_AnodeUp" V 9100 4600 50  0001 C CNN
-F 3 "~" V 9100 4600 50  0001 C CNN
-	1    9100 4600
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	9100 4500 9200 4500
-$Comp
-L MX_Alps_Hybrid:MX-NoLED R-MOD-3
-U 1 1 638874BD
+L MX_Alps_Hybrid:MX-NoLED MOD-2
+U 1 1 63887496
 P 9750 4350
-F 0 "R-MOD-3" H 9783 4573 60  0000 C CNN
+F 0 "MOD-2" H 9783 4573 60  0000 C CNN
 F 1 "MX-NoLED" H 9783 4499 20  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U" H 9125 4325 60  0001 C CNN
 F 3 "" H 9125 4325 60  0001 C CNN
@@ -1511,10 +1439,10 @@ F 3 "" H 9125 4325 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small Diode40
-U 1 1 638874C3
+L Device:D_Small Diode28
+U 1 1 6388749C
 P 9600 4600
-F 0 "Diode40" V 9646 4532 50  0000 R CNN
+F 0 "Diode28" V 9646 4532 50  0000 R CNN
 F 1 "SOD-123" V 9555 4532 50  0000 R CNN
 F 2 "Diode_THT:D_5KP_P7.62mm_Vertical_AnodeUp" V 9600 4600 50  0001 C CNN
 F 3 "~" V 9600 4600 50  0001 C CNN
@@ -1523,6 +1451,30 @@ F 3 "~" V 9600 4600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9600 4500 9700 4500
+$Comp
+L MX_Alps_Hybrid:MX-NoLED R-MOD-1
+U 1 1 638874A3
+P 10250 4350
+F 0 "R-MOD-1" H 10283 4573 60  0000 C CNN
+F 1 "MX-NoLED" H 10283 4499 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 9625 4325 60  0001 C CNN
+F 3 "" H 9625 4325 60  0001 C CNN
+	1    10250 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small Diode32
+U 1 1 638874A9
+P 10100 4600
+F 0 "Diode32" V 10146 4532 50  0000 R CNN
+F 1 "SOD-123" V 10055 4532 50  0000 R CNN
+F 2 "Diode_THT:D_5KP_P7.62mm_Vertical_AnodeUp" V 10100 4600 50  0001 C CNN
+F 3 "~" V 10100 4600 50  0001 C CNN
+	1    10100 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 4500 10200 4500
 Wire Wire Line
 	5100 2450 5600 2450
 Connection ~ 5600 2450
@@ -1606,24 +1558,6 @@ Wire Wire Line
 Connection ~ 6100 4700
 Wire Wire Line
 	6100 4700 6600 4700
-Connection ~ 6600 4700
-Wire Wire Line
-	6600 4700 7100 4700
-Connection ~ 7100 4700
-Wire Wire Line
-	7100 4700 7600 4700
-Connection ~ 7600 4700
-Wire Wire Line
-	7600 4700 8100 4700
-Connection ~ 8100 4700
-Wire Wire Line
-	8100 4700 8600 4700
-Connection ~ 8600 4700
-Wire Wire Line
-	8600 4700 9100 4700
-Connection ~ 9100 4700
-Wire Wire Line
-	9100 4700 9600 4700
 Wire Wire Line
 	5400 2050 5400 2800
 Connection ~ 5400 2800
@@ -1661,49 +1595,31 @@ Wire Wire Line
 Connection ~ 7400 2800
 Wire Wire Line
 	7400 2800 7400 3550
-Connection ~ 7400 3550
-Wire Wire Line
-	7400 3550 7400 4300
 Wire Wire Line
 	7900 2050 7900 2800
 Connection ~ 7900 2800
 Wire Wire Line
 	7900 2800 7900 3550
-Connection ~ 7900 3550
-Wire Wire Line
-	7900 3550 7900 4300
 Wire Wire Line
 	8400 2050 8400 2800
 Connection ~ 8400 2800
 Wire Wire Line
 	8400 2800 8400 3550
-Connection ~ 8400 3550
-Wire Wire Line
-	8400 3550 8400 4300
 Wire Wire Line
 	8900 2050 8900 2800
 Connection ~ 8900 2800
 Wire Wire Line
 	8900 2800 8900 3550
-Connection ~ 8900 3550
-Wire Wire Line
-	8900 3550 8900 4300
 Wire Wire Line
 	9400 2050 9400 2800
 Connection ~ 9400 2800
 Wire Wire Line
 	9400 2800 9400 3550
-Connection ~ 9400 3550
-Wire Wire Line
-	9400 3550 9400 4300
 Wire Wire Line
 	9900 2050 9900 2800
 Connection ~ 9900 2800
 Wire Wire Line
 	9900 2800 9900 3550
-Connection ~ 9900 3550
-Wire Wire Line
-	9900 3550 9900 4300
 Connection ~ 9100 2450
 Wire Wire Line
 	10400 2050 10400 2800
@@ -1738,42 +1654,22 @@ Wire Wire Line
 	6900 5000 6850 5000
 Connection ~ 6900 4300
 Wire Wire Line
-	7400 4300 7400 5000
-Wire Wire Line
 	7400 5000 7350 5000
-Connection ~ 7400 4300
-Wire Wire Line
-	7900 4300 7900 5000
 Wire Wire Line
 	7900 5000 7850 5000
-Connection ~ 7900 4300
-Wire Wire Line
-	8400 4300 8400 5000
 Wire Wire Line
 	8400 5000 8350 5000
-Connection ~ 8400 4300
-Wire Wire Line
-	8900 4300 8900 5000
 Wire Wire Line
 	8900 5000 8850 5000
-Connection ~ 8900 4300
-Wire Wire Line
-	9400 4300 9400 5000
 Wire Wire Line
 	9400 5000 9350 5000
-Connection ~ 9400 4300
-Wire Wire Line
-	9900 4300 9900 5000
 Wire Wire Line
 	9900 5000 9850 5000
-Connection ~ 9900 4300
 Wire Wire Line
-	10400 3550 10400 5000
+	10400 3550 10400 4300
 Wire Wire Line
 	10400 5000 10350 5000
 Connection ~ 10400 3550
-Wire Wire Line
-	10900 3550 10900 5000
 Wire Wire Line
 	10900 5000 10850 5000
 Connection ~ 10900 3550
@@ -2015,4 +1911,80 @@ Wire Wire Line
 	3600 4600 3850 4600
 Wire Wire Line
 	3600 3900 3850 3900
+Wire Wire Line
+	10900 3550 10900 4300
+Wire Wire Line
+	10600 4500 10700 4500
+$Comp
+L Device:D_Small Diode36
+U 1 1 638874B6
+P 10600 4600
+F 0 "Diode36" V 10646 4532 50  0000 R CNN
+F 1 "SOD-123" V 10555 4532 50  0000 R CNN
+F 2 "Diode_THT:D_5KP_P7.62mm_Vertical_AnodeUp" V 10600 4600 50  0001 C CNN
+F 3 "~" V 10600 4600 50  0001 C CNN
+	1    10600 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED R-MOD-2
+U 1 1 638874B0
+P 10750 4350
+F 0 "R-MOD-2" H 10783 4573 60  0000 C CNN
+F 1 "MX-NoLED" H 10783 4499 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 10125 4325 60  0001 C CNN
+F 3 "" H 10125 4325 60  0001 C CNN
+	1    10750 4350
+	1    0    0    -1  
+$EndComp
+Connection ~ 10900 4300
+Wire Wire Line
+	10900 4300 10900 5000
+Connection ~ 10400 4300
+Wire Wire Line
+	10400 4300 10400 5000
+Wire Wire Line
+	9850 3550 9900 3550
+Connection ~ 9900 3550
+Wire Wire Line
+	9900 3550 9900 4300
+Wire Wire Line
+	9900 4300 9900 5000
+Connection ~ 9900 4300
+Wire Wire Line
+	8900 3550 8900 4300
+Connection ~ 8900 3550
+Wire Wire Line
+	8900 4300 8900 5000
+Connection ~ 8900 4300
+Wire Wire Line
+	9400 3550 9400 5000
+Connection ~ 9400 3550
+Wire Wire Line
+	7900 3550 7900 4300
+Connection ~ 7900 3550
+Wire Wire Line
+	7900 4300 7900 5000
+Connection ~ 7900 4300
+Wire Wire Line
+	6600 4700 7600 4700
+Connection ~ 6600 4700
+Wire Wire Line
+	7600 4700 8600 4700
+Connection ~ 7600 4700
+Wire Wire Line
+	8600 4700 9600 4700
+Connection ~ 8600 4700
+Wire Wire Line
+	7400 3550 7400 5000
+Connection ~ 7400 3550
+Wire Wire Line
+	8400 3550 8400 5000
+Connection ~ 8400 3550
+Wire Wire Line
+	9600 4700 10100 4700
+Connection ~ 9600 4700
+Wire Wire Line
+	10100 4700 10600 4700
+Connection ~ 10100 4700
 $EndSCHEMATC
